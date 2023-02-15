@@ -1,0 +1,97 @@
+section {
+    width: 80%;
+    margin: 10px auto;
+}
+
+table {
+    border-collapse: collapse;
+    min-width: 98%;
+    margin: 1%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+th {
+    background-color: #269dcc;
+}
+
+td,
+th {
+    border: 1px solid #27b6d0;
+    text-align: left;
+    padding: 8px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+td a {
+    background-color: #f8a408;
+    border-radius: 22px;
+    padding: 6px;
+    text-decoration: none;
+}
+
+td a:hover {
+    background-color: #118bbb;
+    color: white
+}
+
+td img {
+    margin-bottom: -2px;
+    width: 25px;
+    height: 25px;
+    border-radius: 100vh;
+}
+
+tr:nth-child(even) {
+    background-color: #c2edf3;
+}
+
+section h1 {
+    border-radius: 22px 0 22px 0;
+    color: white;
+    padding: 0.75rem;
+    background-color: #263238;
+}
+
+fieldset {
+    height: 180px;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+fieldset>div {
+    flex-basis: 20% !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+body main#content {
+    font-family: "Roboto", Verdana, Arial, sans-serif;
+    display: flex;
+    font-size: 100%;
+    background-color: rgb(251, 251, 251);
+    color: #ffffff;
+}
+
+.pending {
+    background-color: #faedb6;
+}
+
+.Active {
+    background-color: #f05908;
+}
+
+.Finished {
+    background-color: #4CAF50;
+}
+
+.Late {
+    color: white;
+    background-color: #50505c;
+}

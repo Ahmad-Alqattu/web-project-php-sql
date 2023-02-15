@@ -1,0 +1,189 @@
+  @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+  * {
+      font-family: 'Roboto', "Lato";
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      scroll-behavior: smooth;
+      --mainColor: #ffffff;
+      --secondColor: #83d2fc;
+      color: rgb(10, 9, 9);
+      --backgroundC: linear-gradient(to left, #ea8c12 0%, #e27517 35%, #ee9c0e 70%, #ffc847 100%);
+
+  }
+
+  header nav ul li a {
+      display: block;
+      text-decoration: none;
+      font-size: 18px;
+      transition: .3s;
+      color: white;
+      position: relative;
+      z-index: 3;
+      font-weight: 550;
+      padding: 30px 7px;
+  }
+
+  header nav ul li a:hover {
+      color: var(--secondColor);
+      box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+      border-bottom: 2px solid var(--secondColor);
+
+  }
+
+  header nav ul li a:active {
+      color: var(--secondColor);
+      border-bottom: 2px solid var(--secondColor);
+  }
+
+  header nav nav {
+      display: flex;
+      justify-content: flex-start;
+      margin-left: 50px;
+  }
+
+  header nav ul {
+      display: flex;
+      list-style: none;
+  }
+
+  header nav div:first-of-type {
+      display: flex;
+      font-size: 18px;
+      transition: .3s;
+      position: relative;
+      font-weight: 550;
+      padding: 20px 7px;
+      text-align: center;
+      line-height: 34px;
+  }
+
+  header nav div:first-of-type:hover {
+      border: none;
+  }
+
+  header nav>div a {
+      color: white;
+      text-decoration: none;
+  }
+
+  header img {
+      margin-left: 5px;
+      width: 40px;
+      height: 40px;
+      border-radius: 19px;
+  }
+
+  header img:hover {
+      border: 1px solid #4d9aff;
+  }
+
+  header>nav div:hover {
+      color: var(--secondColor);
+      box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+      border-bottom: 2px solid var(--secondColor);
+  }
+
+  header>nav div a:first-of-type:hover {
+      color: var(--secondColor) !important;
+      text-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+      /* border-left: 2px solid var(--secondColor); */
+  }
+
+  header>nav div a:first-of-type {
+      color: #000016 !important;
+      margin-right: 10px;
+      /* width: 100px; */
+  }
+
+
+  .navigation {
+      display: flex;
+      justify-content: space-between;
+      width: calc(100% - 183px);
+  }
+
+  header nav div:first-of-type:hover+div:last-of-type {
+      visibility: visible !important;
+
+  }
+
+  header div a {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 5px;
+  }
+
+  header {
+      flex: 1;
+      padding: 0 5% !important;
+      background: var(--backgroundC);
+      width: 100%;
+      position: sticky;
+      top: 0;
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      padding-bottom: 100px;
+  }
+
+  .logo {
+      font-size: 48px;
+      text-shadow: 2px 2px 2px rgb(102, 102, 102);
+      text-decoration: none;
+      color: var(--mainColor);
+      letter-spacing: 1px;
+      font-weight: 700;
+      font-size: 1.8em;
+  }
+
+  .footer {
+      background-color: #2a2a2a;
+      color: rgb(238, 238, 238) !important;
+      padding: 2em;
+      position: static;
+      bottom: 0;
+      display: flex;
+      justify-content: space-between;
+            justify-items: center;
+      flex-wrap: wrap;
+  }
+  .footer p{
+    color: #ffffff!important;
+  }
+ .footer div.copy {
+    margin-top: 10px;
+    flex-basis: 100%;
+    align-self: center;
+ }
+  .footer div.copy p{
+      text-align: center;
+  }
+  .footer div.copy span{
+    font-size: 24px;
+    color: #4d9aff;
+  }
+  .footer div.copy img{
+    width: 50px;
+    margin-bottom: -17px;
+  }
+
+  .footer-title {
+      color: inherit;
+      font-size: 1.3em;
+      font-weight: 600;
+  }
+
+  .footer-title a {
+      color: #3a6cf4;
+  }
+  footer .social-icons img:hover{
+border-radius: 20px;
+border: 1px solid rgb(14, 154, 235);
+  }
+
+  .footer img {
+      width: 30px;
+  }

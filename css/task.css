@@ -1,0 +1,68 @@
+section {
+    margin: 25px auto;
+    width: 60%;
+    border-radius: 22px;
+
+}
+
+body main#content {
+    font-family: "Roboto", Verdana, Arial, sans-serif;
+    display: flex;
+    font-size: 100%;
+    background-color: rgb(255, 255, 255);
+    color: #ffffff;
+}
+.task-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.task-details h2 {
+    margin: 10px 0;
+}
+
+.task-details table {
+    width: 80%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.task-details th,
+.task-details td {
+    border: 1px solid rgb(10, 34, 48);
+    padding: 10px;
+}
+td img{
+        margin-bottom: -4px;
+            width: 31px;
+            border-radius: 100vh;
+}
+
+.task-details th {
+    background-color: rgb(90, 160, 250);
+    width:200px
+}
+
+.task-details select {
+    padding: 10px;
+    margin-top: 10px;
+}
+
+input[type=submit] {
+    background-color: #e27517;
+    color: white;
+    font-size: 14px;
+    border-style: none;
+    padding: 4px;
+    margin-top: 15px;
+    border-radius: 20px;
+
+}
+
+input[type=submit]:hover {
+    background-color: #f79947;
+    color: #292828;
+
+}

@@ -1,0 +1,31 @@
+.breadcrumb {
+    background-color: #ddd;
+    padding: 10px;
+}
+
+.breadcrumb ul {
+    list-style: none;
+    display: flex;
+}
+
+.breadcrumb li {
+    margin-right: 10px;
+}
+
+.cr-step {
+    background-color: #ff7f00;
+    color: #fff;
+    padding: 10px;
+}
+
+.cp-step {
+    background-color: #00ff00;
+    color: #fff;
+    padding: 10px;
+}
+
+.rm-step {
+    background-color: #ccc;
+    color: #000;
+    padding: 10px;
+}
